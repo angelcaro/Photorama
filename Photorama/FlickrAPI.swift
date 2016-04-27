@@ -17,7 +17,7 @@ struct FlickrAPI {
     private let baseURLString = "https://api.flickr.com/services/rest"
     private let APIKey = "e8198c23921dae2d130d64c0fc9d675d"
     
-    private func flickrURL(method: Method, parameters: [String: String]?) -> NSURL {
+    func flickrURL(method: Method, parameters: [String: String]?) -> NSURL {
         
         let components = NSURLComponents(string: baseURLString)!
         
