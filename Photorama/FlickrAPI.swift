@@ -14,10 +14,10 @@ enum Method: String {
 
 struct FlickrAPI {
     
-    private let baseURLString = "https://api.flickr.com/services/rest"
-    private let APIKey = "e8198c23921dae2d130d64c0fc9d675d"
+    private static let baseURLString = "https://api.flickr.com/services/rest"
+    private static let APIKey = "e8198c23921dae2d130d64c0fc9d675d"
     
-    func flickrURL(method: Method, parameters: [String: String]?) -> NSURL {
+    private static func flickrURL(method method: Method, parameters: [String: String]?) -> NSURL {
         
         let components = NSURLComponents(string: baseURLString)!
         
@@ -46,8 +46,8 @@ struct FlickrAPI {
         return components.URL!
     }
     
-    func recentPhotosURL() -> NSURL {
-        return flickrURL(.RecentPhotos, parameters: ["extras": "url_h,date_taken"])
+    static func recentPhotosURL() -> NSURL {
+        return flickrURL(method: .RecentPhotos, parameters: ["extras": "url_h,date_taken"])
     }
     
 }

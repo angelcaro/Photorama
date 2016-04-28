@@ -14,6 +14,7 @@
 		89593E0A1CD1229B006A1806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89593E091CD1229B006A1806 /* Assets.xcassets */; };
 		89593E0D1CD1229B006A1806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89593E0B1CD1229B006A1806 /* LaunchScreen.storyboard */; };
 		89593E151CD12323006A1806 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89593E141CD12323006A1806 /* PhotosViewController.swift */; };
+		89E8890A1CD258040062E6A2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E889091CD258040062E6A2 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		89593E0C1CD1229B006A1806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89593E0E1CD1229B006A1806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89593E141CD12323006A1806 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		89E889091CD258040062E6A2 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				89593E021CD1229B006A1806 /* AppDelegate.swift */,
 				893702331CD1442F00AFDD2C /* FlickrAPI.swift */,
 				893702351CD1686800AFDD2C /* PhotoStore.swift */,
+				89E889091CD258040062E6A2 /* Photo.swift */,
 				89593E141CD12323006A1806 /* PhotosViewController.swift */,
 				89593E061CD1229B006A1806 /* Main.storyboard */,
 				89593E091CD1229B006A1806 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				89593E151CD12323006A1806 /* PhotosViewController.swift in Sources */,
 				893702361CD1686800AFDD2C /* PhotoStore.swift in Sources */,
 				89593E031CD1229B006A1806 /* AppDelegate.swift in Sources */,
+				89E8890A1CD258040062E6A2 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
